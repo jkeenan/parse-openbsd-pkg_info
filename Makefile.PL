@@ -1,7 +1,9 @@
 use strict;
 use warnings;
 use ExtUtils::MakeMaker;
-use Devel::CheckOS qw(OpenBSD);
+use Devel::CheckOS qw(os_is);
+die "Parse::OpenBSD::pkg_info only runs on OpenBSD"
+    unless os_is('OpenBSD');
 
 my $mm_ver = ExtUtils::MakeMaker->VERSION;
 $mm_ver =~ s/_//g;

@@ -1,0 +1,25 @@
+Information for https://ftp4.usa.openbsd.org/pub/OpenBSD/snapshots/packages/amd64/p5-Cairo-1.106p0.tgz
+
+Files:
+/usr/local/libdata/perl5/site_perl/amd64-openbsd/Cairo.pm
+/usr/local/libdata/perl5/site_perl/amd64-openbsd/Cairo/Install/Files.pm
+/usr/local/libdata/perl5/site_perl/amd64-openbsd/Cairo/Install/cairo-perl-auto.h
+/usr/local/libdata/perl5/site_perl/amd64-openbsd/Cairo/Install/cairo-perl-auto.typemap
+/usr/local/libdata/perl5/site_perl/amd64-openbsd/Cairo/Install/cairo-perl.h
+/usr/local/libdata/perl5/site_perl/amd64-openbsd/Cairo/Install/cairo-perl.typemap
+/usr/local/libdata/perl5/site_perl/amd64-openbsd/Cairo/Install/doctypes
+/usr/local/libdata/perl5/site_perl/amd64-openbsd/auto/Cairo/Cairo.so
+/usr/local/man/man3p/Cairo.3p
+
+
+Information for https://ftp4.usa.openbsd.org/pub/OpenBSD/snapshots/packages/amd64/p5-Class-Date-1.1.15.tgz
+
+Files:
+/usr/local/libdata/perl5/site_perl/Class/Date.pm
+/usr/local/libdata/perl5/site_perl/Class/Date.pod
+/usr/local/libdata/perl5/site_perl/Class/Date/Const.pm
+/usr/local/libdata/perl5/site_perl/Class/Date/Invalid.pm
+/usr/local/libdata/perl5/site_perl/Class/Date/Rel.pm
+/usr/local/man/man3p/Class::Date.3p
+
+

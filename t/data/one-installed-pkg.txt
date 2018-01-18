@@ -1,0 +1,13 @@
+Information for inst:p5-Algorithm-Diff-1.1903p0
+
+Files:
+/usr/local/libdata/perl5/site_perl/Algorithm/Diff.pm
+/usr/local/libdata/perl5/site_perl/Algorithm/DiffOld.pm
+/usr/local/libdata/perl5/site_perl/Algorithm/cdiff.pl
+/usr/local/libdata/perl5/site_perl/Algorithm/diff.pl
+/usr/local/libdata/perl5/site_perl/Algorithm/diffnew.pl
+/usr/local/libdata/perl5/site_perl/Algorithm/htmldiff.pl
+/usr/local/man/man3p/Algorithm::Diff.3p
+/usr/local/man/man3p/Algorithm::DiffOld.3p
+
+

@@ -1,0 +1,22 @@
+Information for inst:p5-IO-Capture-0.05p2
+
+Files:
+/usr/local/libdata/perl5/site_perl/IO/Capture.pm
+/usr/local/libdata/perl5/site_perl/IO/Capture/Overview.pod
+/usr/local/libdata/perl5/site_perl/IO/Capture/Stderr.pm
+/usr/local/libdata/perl5/site_perl/IO/Capture/Stdout.pm
+/usr/local/libdata/perl5/site_perl/IO/Capture/Tie_STDx.pm
+/usr/local/man/man3p/IO::Capture.3p
+/usr/local/man/man3p/IO::Capture::Overview.3p
+/usr/local/man/man3p/IO::Capture::Stderr.3p
+/usr/local/man/man3p/IO::Capture::Stdout.3p
+/usr/local/man/man3p/IO::Capture::Tie_STDx.3p
+
+
+Information for inst:p5-IO-CaptureOutput-1.1104p0
+
+Files:
+/usr/local/libdata/perl5/site_perl/IO/CaptureOutput.pm
+/usr/local/man/man3p/IO::CaptureOutput.3p
+
+

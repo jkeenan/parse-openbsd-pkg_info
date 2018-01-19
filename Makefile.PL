@@ -15,6 +15,8 @@ my %configure_req = (   # 6.52++
 my %build_req = (       # 6.5503++
 );
 my %test_req = (        # 6.64++
+    'Cwd' => 0,
+    'File::Spec' => 0,
     'Test::RequiresInternet' => 0,
     'Test::Simple' => 0.44,
 );

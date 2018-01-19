@@ -2,9 +2,9 @@
 
 # t/001-load.t - check module loading and create testing directory
 
-use Test::More tests =>  4;
+use Test::More;
 use Parse::OpenBSD::pkg_info qw( L );
-#use Data::Dump qw ( dd pp );
+use Test::RequiresInternet ('ftp4.usa.openbsd.org' => 80);
 
 my (@requests, $results);
 my (@valid, @phony);
@@ -13,12 +13,18 @@ my (@valid, @phony);
 @phony = qw( p5-My-Foo-Bar );
 @requests = (@valid, @phony);
 
-$results = L(@requests);
-#pp($results);
-is(keys %{$results}, 3, "Results reported for three requests");
-for my $req (@valid) {
-    ok(defined $results->{$req}, "'$req' found, as expected");
+SKIP: {
+    skip "Set PERL_ALLOW_NETWORK_TESTING to conduct live tests", 4
+        unless $ENV{PERL_ALLOW_NETWORK_TESTING};
+
+    $results = L(@requests);
+    is(keys %{$results}, 3, "Results reported for three requests");
+    for my $req (@valid) {
+        ok(defined $results->{$req}->{installed}, "'$req' found, as expected");
+    }
+    ok(! defined $results->{$phony[0]}, "'$phony[0]' not found, as expected");
 }
-ok(! defined $results->{$phony[0]}, "'$phony[0]' not found, as expected");
+
+done_testing;
 
 

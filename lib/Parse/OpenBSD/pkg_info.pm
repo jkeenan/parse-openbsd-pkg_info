@@ -3,7 +3,7 @@ use 5.14.0;
 use warnings;
 our $VERSION = '0.01';
 use parent qw( Exporter );
-our @EXPORT_OK= qw( L );
+our @EXPORT_OK= qw( L _parse );
 use Carp;
 use Data::Dump qw( dd pp );
 

@@ -7,6 +7,7 @@ use Carp;
 use Cwd;
 use File::Spec;
 use Parse::OpenBSD::pkg_info qw( L );
+use Parse::OpenBSD::pkg_info::ParseContent qw( L_parse );
 use Test::RequiresInternet ('ftp4.usa.openbsd.org' => 80);
 
 my (@requests, $results);
@@ -199,7 +200,7 @@ sub parse_sample_file {
     ok(-f $file, "Located $file for testing");
     $filestr = slurp_in_file($file);
     $results = [ split(/\n{3,}/, $filestr) ];
-    $found = Parse::OpenBSD::pkg_info::_parse($results);
+    $found = Parse::OpenBSD::pkg_info::ParseContent::L_parse($results);
     return $found;
 }
 

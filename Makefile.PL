@@ -1,7 +1,8 @@
 use strict;
 use warnings;
+die("OS unsupported; only intended for OpenBSD")
+    unless $^O eq 'OpenBSD';
 use ExtUtils::MakeMaker;
-use Devel::CheckOS qw(OpenBSD);
 
 my $mm_ver = ExtUtils::MakeMaker->VERSION;
 $mm_ver =~ s/_//g;
